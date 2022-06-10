@@ -1,0 +1,14 @@
+.welcome-section {
+  text-align: center;
+  padding: 3rem;
+  margin: 3rem;
+  height: 20%;
+  &__h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  &__p {
+    opacity: 0.5;
+    padding: 1rem;
+  }
+}
