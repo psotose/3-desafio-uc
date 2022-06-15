@@ -1,3 +1,6 @@
+.carousel {
+  height: 90vh;
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -18,40 +21,5 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-  }
-  &__img {
-    &-1 {
-      color: white;
-      background: url(../assets/img/pc-1.jpg) no-repeat fixed center;
-      background-size: cover;
-      height: 70vh;
-      text-align: center;
-      width: 100vw;    
-    }
-    &-2 {
-      color: white;
-      background: url(../assets/img/pc-2.jpg) no-repeat fixed center;
-      background-size: cover;
-      height: 70vh;
-      text-align: center;
-      width: 100vw;
-    }
-    &-3 {
-      color: white;
-      background: url(../assets/img/pc-3.jpg) no-repeat fixed center;
-      background-size: cover;
-      height: 70vh;
-      text-align: center;
-      width: 100vw;
-    }
-    &-4 {
-      color: white;
-      background: url(../assets/img/pc-4.jpg) no-repeat fixed center;
-      background-size: cover;
-      height: 70vh;
-      text-align: center;
-      width: 100vw;
-    }
-
   }
 }
