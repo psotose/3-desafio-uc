@@ -1,10 +1,11 @@
 .navbar {
   background-color: #276A76;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 1rem;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: fit-content;
   &__nav{
     margin-right: 3rem;
   }
@@ -25,10 +26,9 @@
     }
   }
   &__letters-logo-p {
-    display: flex;
+    display: block;
     flex-direction: column;
     padding-left: 1rem;
-    padding-top: 1em;
   }
   &__logo{
     display: flex;

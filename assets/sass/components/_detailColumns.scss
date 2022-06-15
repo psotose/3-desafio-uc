@@ -1,13 +1,12 @@
 .detail-columns {
   background-color: #1D2951;
   color: #fff;
-  display: flex;
-  height: 20%;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
   &__container {
     padding: 2%;
+    padding-top:20%;
     text-align: center;
-    width: 25%;
     &-border {
       border-right: 1px solid #001a39;
     }
